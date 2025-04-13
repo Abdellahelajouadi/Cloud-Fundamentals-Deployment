@@ -99,7 +99,7 @@ Make sure to set your environment variable `REACT_APP_WEATHER_API_KEY` in your h
 ## 🙋 Author
 
 Created by **Elajouadi**  
-GitHub: [@Chaouki33](https://github.com/abdellahelajouadi)  
+GitHub: [@abdellah elajouadi](https://github.com/abdellahelajouadi)  
 
 ---
 
