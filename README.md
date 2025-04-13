@@ -1,12 +1,106 @@
-# React + Vite
+# 🌦️ Weather & Country Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that displays current weather information and detailed country data based on user input. Supports dark/light mode and remembers your last searched city.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌤️ Current weather: temperature, condition, humidity
+- 🌍 Country info: capital, region, population, flag
+- 🌗 Dark/Light mode toggle
+- 💾 Remembers your last searched city (localStorage)
+- 🔒 Secure API key using `.env`
+- 📱 Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Demo
+
+![App Screenshot](./public/Capture d'écran .png) 
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Add API Key
+
+Create a `.env` file in the project root and add your OpenWeatherMap API key:
+
+```
+REACT_APP_WEATHER_API_KEY=your_api_key_here
+```
+
+> ✅ Make sure `.env` is included in `.gitignore`
+
+### 4. Start the app
+
+```bash
+npm start
+```
+
+App will run at [http://localhost:5173/](http://localhost:5173/)
+
+---
+
+## 📁 Project Structure
+
+```
+weather-country-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+- [REST Countries API](https://restcountries.com/)
+
+---
+
+## 📦 Deployment
+
+This app can be deployed to platforms like:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+Make sure to set your environment variable `REACT_APP_WEATHER_API_KEY` in your hosting dashboard.
+
+
+
+---
+
+## 🙋 Author
+
+Created by **Elajouadi**  
+GitHub: [@Chaouki33](https://github.com/abdellahelajouadi)  
+
+---
+
+_ last Update on April 14, 2025_
