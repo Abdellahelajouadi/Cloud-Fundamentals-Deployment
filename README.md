@@ -1,4 +1,4 @@
-![Capture d'écran ](https://github.com/user-attachments/assets/958bedb2-a5a9-4eb0-a335-3c0a7f8b27ff)# 🌦️ Weather & Country Info App
+# 🌦️ Weather & Country Info App
 
 A responsive React application that displays current weather information and detailed country data based on user input. Supports dark/light mode and remembers your last searched city.
 
@@ -17,7 +17,7 @@ A responsive React application that displays current weather information and det
 
 ## 🖥️ Demo
 
-![App schreenshot](./public/Capture d'écran .png…]()
+![Capture d'écran ](https://github.com/user-attachments/assets/958bedb2-a5a9-4eb0-a335-3c0a7f8b27ff)
 ) 
 
 ---
